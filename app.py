@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 
 # Load the model
-model = load_model('model/vanet_classifier.h5')
-model.load_weights('model/vanet_classifier.weights.h5')
+model = load_model('model/vanet_classifier.keras')
+# model.load_weights('model/vanet_classifier.weights.h5')
 
 # Load dataset
 @st.cache_data
