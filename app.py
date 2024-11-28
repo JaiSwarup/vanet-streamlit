@@ -13,7 +13,7 @@ model = load_model('model/vanet_classifier.keras')
 @st.cache_data
 def load_data():
     # Replace with the path to your dataset
-    df = pd.read_csv('dataset\DataSet 5RoutingMetrics VANET BCN.csv')  
+    df = pd.read_csv('dataset/dataset.csv')  
     return df
 
 df = load_data()
